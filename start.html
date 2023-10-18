@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="heading">
+        <h1>Rock Paper Scissors</h1>
+    </div>
+
+
+    <div id="play">
+        <div id="game-image">
+            <img src="game-image.png" alt="">
+        </div>
+        <div id="play-button">
+            <img src="play-button.png" alt="" class="play-buttonn">
+            <b>Play the Game</b>
+        </div>  
+    </div>
+</body>
+</html>
+<script>
+    var play = document.querySelector("#play-button")
+    play.addEventListener("click",() =>{
+        window.location.href = "./gameover.html"
+    })
+</script>
