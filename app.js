@@ -7,9 +7,9 @@ var item = document.querySelector("#item")
 var lastText = document.querySelector(".lastText")
 var playAgainButton = document.querySelector(".button")
 
-let rockImg = "./assets./rock-hand.png"
-let paperImg = "./assets./paper-hand.png"
-let scissorImg = "./assets./scissors-hand.png"
+let rockImg = "./assets/rock-hand.png"
+let paperImg = "./assets/paper-hand.png"
+let scissorImg = "./assets/scissors-hand.png"
 
 
 var user = document.querySelector(".userGame")
